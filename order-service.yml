@@ -8,3 +8,7 @@ product:
 spring:
   application:
     name: order-service
+
+rabbitmq: 
+  template:
+    message-converter: jsonMessageConverter
