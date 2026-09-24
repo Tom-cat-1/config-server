@@ -9,6 +9,8 @@ spring:
   application:
     name: order-service
 
-rabbitmq: 
-  template:
-    message-converter: jsonMessageConverter
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
